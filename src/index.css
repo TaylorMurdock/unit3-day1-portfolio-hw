@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Header a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+}
+
+.Projects {
+  display: flex;
+  justify-content: center;
+  /* Center the divs horizontally */
+}
+
+.ProjectCard {
+  width: 400px;
+  /* Adjust this value to your preferred width */
+  margin: 20px;
+  /* Add some margin to separate the cards */
+  padding: 20px;
+  /* Add padding for better spacing */
+  border: 3px solid black;
+  /* Add the border properties here if needed */
+  background-color: #3333335f;
+}
+
+.ProjectCard img {
+  max-width: 300px;
+  /* Adjust this value to your preferred size */
+  height: auto;
+  /* This will maintain the aspect ratio */
+  margin-top: 10px;
+}
+
+.ProjectCard a {
+  margin-right: 20px;
+  margin-left: 35px;
+  /* Adjust this value to your preferred spacing */
+  text-decoration: none;
+}
+
+.Footer {
+  background-color: #333;
+  color: #fff;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Footer img {
+  max-width: 150px;
+  /* Adjust this value to your preferred size */
+  height: auto;
+  /* This will maintain the aspect ratio */
+  margin-bottom: 10px;
+  padding-bottom: 70px;
+  border-radius: 100%;
+  /* This creates a circular shape by setting the border-radius to half of the image's width/height */
+}
